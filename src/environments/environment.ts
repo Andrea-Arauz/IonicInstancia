@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: "AIzaSyC3avqociBdsuhjMDzSa_l_KrXCS4W1cT4",
+    authDomain: "milogin-12332.firebaseapp.com",
+    databaseURL: "https://milogin-12332.firebaseio.com",
+    projectId: "milogin-12332",
+    storageBucket: "milogin-12332.appspot.com",
+    messagingSenderId: "594436506142",
+    appId: "1:594436506142:web:dac0fb42663eba2e52e40f",
+    measurementId: "G-S8D5YRV047"
+  }
 };
 
 /*
